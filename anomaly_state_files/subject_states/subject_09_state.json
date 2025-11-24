@@ -1,0 +1,243 @@
+{
+  "subject_id": "9",
+  "nights": [
+    {
+      "night_index": "09_20231110_BCG",
+      "CSI": 0.8850773076445487,
+      "CStab": 0.1693700614267806,
+      "quality_ratio": 0.9673202614379084,
+      "mean_std": 1470.4487866654476,
+      "mean_rms": 1481.9249454050394,
+      "mean_energy": 23309760794.5384,
+      "anomaly_score": 0.33123228597005905,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1024,
+          "dCStab": 0.0896
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1536,
+          "dCStab": 0.128
+        },
+        "nap": {
+          "dCSI": 0.0512,
+          "dCStab": 0.0384
+        },
+        "exercise_relax": {
+          "dCSI": 0.0384,
+          "dCStab": 0.064
+        }
+      }
+    },
+    {
+      "night_index": "09_20231111_BCG",
+      "CSI": 0.7558040831031758,
+      "CStab": 0.2966750548174555,
+      "quality_ratio": 0.961137440758294,
+      "mean_std": 1430.389111651216,
+      "mean_rms": 1441.784649929326,
+      "mean_energy": 22372115087.966824,
+      "anomaly_score": 0.1125956130926224,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0255,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1021,
+          "dCStab": 0.0894
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1532,
+          "dCStab": 0.1277
+        },
+        "nap": {
+          "dCSI": 0.0511,
+          "dCStab": 0.0383
+        },
+        "exercise_relax": {
+          "dCSI": 0.0383,
+          "dCStab": 0.0638
+        }
+      }
+    },
+    {
+      "night_index": "09_20231112_BCG",
+      "CSI": 0.9779615571560334,
+      "CStab": 0.0,
+      "quality_ratio": 0.9675023212627668,
+      "mean_std": 1523.745279106052,
+      "mean_rms": 1534.01681086528,
+      "mean_energy": 23211423961.460537,
+      "anomaly_score": 0.7892514865127841,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1024,
+          "dCStab": 0.0896
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1537,
+          "dCStab": 0.1281
+        },
+        "nap": {
+          "dCSI": 0.0512,
+          "dCStab": 0.0384
+        },
+        "exercise_relax": {
+          "dCSI": 0.0384,
+          "dCStab": 0.064
+        }
+      }
+    },
+    {
+      "night_index": "09_20231113_BCG",
+      "CSI": 0.0,
+      "CStab": 1.0,
+      "quality_ratio": 0.9634906500445236,
+      "mean_std": 1209.070465909242,
+      "mean_rms": 1216.6515309153613,
+      "mean_energy": 16573010113.310774,
+      "anomaly_score": 2.6308186808661507,
+      "is_anomaly": 1,
+      "night_status": "bad",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1022,
+          "dCStab": 0.0895
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1534,
+          "dCStab": 0.1278
+        },
+        "nap": {
+          "dCSI": 0.0511,
+          "dCStab": 0.0383
+        },
+        "exercise_relax": {
+          "dCSI": 0.0383,
+          "dCStab": 0.0639
+        }
+      }
+    },
+    {
+      "night_index": "09_20231114_BCG",
+      "CSI": 0.1225613280293613,
+      "CStab": 0.938791472436426,
+      "quality_ratio": 0.9706703910614524,
+      "mean_std": 1228.3312478863616,
+      "mean_rms": 1238.7252649237346,
+      "mean_energy": 17992677042.5419,
+      "anomaly_score": 2.3185706617018695,
+      "is_anomaly": 1,
+      "night_status": "bad",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1026,
+          "dCStab": 0.0898
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1539,
+          "dCStab": 0.1282
+        },
+        "nap": {
+          "dCSI": 0.0513,
+          "dCStab": 0.0385
+        },
+        "exercise_relax": {
+          "dCSI": 0.0385,
+          "dCStab": 0.0641
+        }
+      }
+    },
+    {
+      "night_index": "09_20231115_BCG",
+      "CSI": 0.7402115985853338,
+      "CStab": 0.2611869708661906,
+      "quality_ratio": 0.970467596390484,
+      "mean_std": 1441.556317839293,
+      "mean_rms": 1451.9790782592495,
+      "mean_energy": 21759743010.208366,
+      "anomaly_score": 0.07514609874839243,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1026,
+          "dCStab": 0.0898
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1539,
+          "dCStab": 0.1282
+        },
+        "nap": {
+          "dCSI": 0.0513,
+          "dCStab": 0.0385
+        },
+        "exercise_relax": {
+          "dCSI": 0.0385,
+          "dCStab": 0.0641
+        }
+      }
+    },
+    {
+      "night_index": "09_20231116_BCG",
+      "CSI": 0.9181626305541,
+      "CStab": 0.1370143325648577,
+      "quality_ratio": 0.96425855513308,
+      "mean_std": 1480.6303196009198,
+      "mean_rms": 1490.7295780910083,
+      "mean_energy": 23598501169.174145,
+      "anomaly_score": 0.4462352449167472,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1023,
+          "dCStab": 0.0895
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1534,
+          "dCStab": 0.1279
+        },
+        "nap": {
+          "dCSI": 0.0511,
+          "dCStab": 0.0384
+        },
+        "exercise_relax": {
+          "dCSI": 0.0384,
+          "dCStab": 0.0639
+        }
+      }
+    }
+  ]
+}

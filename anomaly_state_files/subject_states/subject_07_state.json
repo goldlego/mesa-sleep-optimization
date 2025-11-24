@@ -1,0 +1,209 @@
+{
+  "subject_id": "7",
+  "nights": [
+    {
+      "night_index": "07_20231111_BCG",
+      "CSI": 0.0,
+      "CStab": 1.0,
+      "quality_ratio": 0.9626047711154094,
+      "mean_std": 796.4278757471985,
+      "mean_rms": 799.7066576427909,
+      "mean_energy": 9821995655.5951,
+      "anomaly_score": 0.5419301728951308,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1022,
+          "dCStab": 0.0894
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1533,
+          "dCStab": 0.1278
+        },
+        "nap": {
+          "dCSI": 0.0511,
+          "dCStab": 0.0383
+        },
+        "exercise_relax": {
+          "dCSI": 0.0383,
+          "dCStab": 0.0639
+        }
+      }
+    },
+    {
+      "night_index": "07_20231112_BCG",
+      "CSI": 0.7627267681103735,
+      "CStab": 0.1428841971597343,
+      "quality_ratio": 0.9646464646464646,
+      "mean_std": 1468.6081730977303,
+      "mean_rms": 1475.7989947461467,
+      "mean_energy": 23288139544.22054,
+      "anomaly_score": 1.5591877471747089,
+      "is_anomaly": 1,
+      "night_status": "bad",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1023,
+          "dCStab": 0.0895
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1535,
+          "dCStab": 0.1279
+        },
+        "nap": {
+          "dCSI": 0.0512,
+          "dCStab": 0.0384
+        },
+        "exercise_relax": {
+          "dCSI": 0.0384,
+          "dCStab": 0.0639
+        }
+      }
+    },
+    {
+      "night_index": "07_20231113_BCG",
+      "CSI": 0.2029844401853066,
+      "CStab": 0.7989543347689229,
+      "quality_ratio": 0.9708646616541352,
+      "mean_std": 954.0949431239108,
+      "mean_rms": 959.6383436036718,
+      "mean_energy": 14214805323.355265,
+      "anomaly_score": 0.023179653793869444,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0257,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1026,
+          "dCStab": 0.0898
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1539,
+          "dCStab": 0.1283
+        },
+        "nap": {
+          "dCSI": 0.0513,
+          "dCStab": 0.0385
+        },
+        "exercise_relax": {
+          "dCSI": 0.0385,
+          "dCStab": 0.0641
+        }
+      }
+    },
+    {
+      "night_index": "07_20231114_BCG",
+      "CSI": 0.2228521590374211,
+      "CStab": 0.7823465033848844,
+      "quality_ratio": 0.9708904109589042,
+      "mean_std": 967.1193874301264,
+      "mean_rms": 972.5384085970504,
+      "mean_energy": 14756180669.511986,
+      "anomaly_score": 0.02317965379386971,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0257,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1026,
+          "dCStab": 0.0898
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1539,
+          "dCStab": 0.1283
+        },
+        "nap": {
+          "dCSI": 0.0513,
+          "dCStab": 0.0385
+        },
+        "exercise_relax": {
+          "dCSI": 0.0385,
+          "dCStab": 0.0641
+        }
+      }
+    },
+    {
+      "night_index": "07_20231115_BCG",
+      "CSI": 1.0,
+      "CStab": 0.0,
+      "quality_ratio": 0.9634782608695652,
+      "mean_std": 1580.662975745467,
+      "mean_rms": 1593.3744837742083,
+      "mean_energy": 31229794363.44087,
+      "anomaly_score": 2.028410841875388,
+      "is_anomaly": 1,
+      "night_status": "bad",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0256,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1022,
+          "dCStab": 0.0895
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1534,
+          "dCStab": 0.1278
+        },
+        "nap": {
+          "dCSI": 0.0511,
+          "dCStab": 0.0383
+        },
+        "exercise_relax": {
+          "dCSI": 0.0383,
+          "dCStab": 0.0639
+        }
+      }
+    },
+    {
+      "night_index": "07_20231116_BCG",
+      "CSI": 0.1008396638305377,
+      "CStab": 0.8888173619205857,
+      "quality_ratio": 0.971027216856892,
+      "mean_std": 883.6212030394793,
+      "mean_rms": 887.8683985375652,
+      "mean_energy": 11651871032.308165,
+      "anomaly_score": 0.26745873837796214,
+      "is_anomaly": 0,
+      "night_status": "moderate",
+      "action_effects": {
+        "no_action": {
+          "dCSI": -0.0257,
+          "dCStab": -0.0128
+        },
+        "sleep_earlier": {
+          "dCSI": 0.1026,
+          "dCStab": 0.0898
+        },
+        "sleep_hygiene": {
+          "dCSI": 0.1539,
+          "dCStab": 0.1283
+        },
+        "nap": {
+          "dCSI": 0.0513,
+          "dCStab": 0.0385
+        },
+        "exercise_relax": {
+          "dCSI": 0.0385,
+          "dCStab": 0.0641
+        }
+      }
+    }
+  ]
+}

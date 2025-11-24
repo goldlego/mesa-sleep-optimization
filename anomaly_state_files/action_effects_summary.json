@@ -1,0 +1,22 @@
+{
+  "no_action": {
+    "dCSI": -0.02,
+    "dCStab": -0.01
+  },
+  "sleep_earlier": {
+    "dCSI": 0.08,
+    "dCStab": 0.07
+  },
+  "sleep_hygiene": {
+    "dCSI": 0.12,
+    "dCStab": 0.1
+  },
+  "nap": {
+    "dCSI": 0.04,
+    "dCStab": 0.03
+  },
+  "exercise_relax": {
+    "dCSI": 0.03,
+    "dCStab": 0.05
+  }
+}
