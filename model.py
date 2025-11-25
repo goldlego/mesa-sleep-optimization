@@ -3,6 +3,7 @@ import json
 import os
 import glob
 from mesa.time import SimultaneousActivation
+from mesa.space import MultiGrid
 from agent import SubjectAgent
 
 class SleepModel(mesa.Model):
@@ -12,6 +13,7 @@ class SleepModel(mesa.Model):
     def __init__(self, data_path="anomaly_state_files/subject_states"):
         super().__init__()
         self.schedule = SimultaneousActivation(self)
+        self.grid = MultiGrid(20, 20, False)
         self.data_path = data_path
         
         # Find all subject files
@@ -40,6 +42,14 @@ class SleepModel(mesa.Model):
                 # Create Agent
                 agent = SubjectAgent(subject_id, self, subject_data)
                 self.schedule.add(agent)
+                
+                # Place agent on grid based on initial state
+                x = int(agent.current_CSI * 10)
+                y = int(agent.current_CStab * 10)
+                # Clamp to grid size
+                x = max(0, min(x, self.grid.width - 1))
+                y = max(0, min(y, self.grid.height - 1))
+                self.grid.place_agent(agent, (x, y))
                 
             except Exception as e:
                 print(f"Error loading file {file_path}: {e}")

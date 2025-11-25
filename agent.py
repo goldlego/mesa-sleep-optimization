@@ -65,6 +65,14 @@ class SubjectAgent(mesa.Agent):
         self.current_CSI += best_dCSI
         self.current_CStab += best_dCStab
         
+        # Update position on grid
+        new_x = int(self.current_CSI * 10)
+        new_y = int(self.current_CStab * 10)
+        # Clamp
+        new_x = max(0, min(new_x, self.model.grid.width - 1))
+        new_y = max(0, min(new_y, self.model.grid.height - 1))
+        self.model.grid.move_agent(self, (new_x, new_y))
+        
         # Sleep Debt Update
         if night_status == 'bad':
             self.sleep_debt += 1
